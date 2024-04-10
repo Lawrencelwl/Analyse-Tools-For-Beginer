@@ -1,0 +1,424 @@
+2024-04-06 22:19:42,297 [INFO]  CategoricalEncoder for column occupation                                found only 8 occurrences of value Armed-Forces
+2024-04-06 22:19:44,785 [INFO]  
+========== start: fit model
+2024-04-06 22:19:44,785 [WARNING]  Already bound, ignoring bind()
+2024-04-06 22:19:50,446 [INFO]  Epoch[0] Batch [1037]	Speed: 2936.84 samples/sec	cross-entropy=1.892441	occupation-accuracy=0.302144
+2024-04-06 22:19:58,377 [INFO]  Epoch[0] Train-cross-entropy=1.837032
+2024-04-06 22:19:58,377 [INFO]  Epoch[0] Train-occupation-accuracy=0.313767
+2024-04-06 22:19:58,377 [INFO]  Epoch[0] Time cost=13.591
+2024-04-06 22:19:58,438 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_occupation\model-0000.params"
+2024-04-06 22:19:59,012 [INFO]  Epoch[0] Validation-cross-entropy=1.859294
+2024-04-06 22:19:59,013 [INFO]  Epoch[0] Validation-occupation-accuracy=0.301359
+2024-04-06 22:20:04,791 [INFO]  Epoch[1] Batch [1037]	Speed: 2874.45 samples/sec	cross-entropy=1.831785	occupation-accuracy=0.317738
+2024-04-06 22:20:11,710 [INFO]  Epoch[1] Train-cross-entropy=1.829076
+2024-04-06 22:20:11,710 [INFO]  Epoch[1] Train-occupation-accuracy=0.315275
+2024-04-06 22:20:11,710 [INFO]  Epoch[1] Time cost=12.697
+2024-04-06 22:20:11,742 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_occupation\model-0001.params"
+2024-04-06 22:20:12,333 [INFO]  Epoch[1] Validation-cross-entropy=1.852763
+2024-04-06 22:20:12,334 [INFO]  Epoch[1] Validation-occupation-accuracy=0.301902
+2024-04-06 22:20:20,891 [INFO]  Epoch[2] Batch [1037]	Speed: 1940.38 samples/sec	cross-entropy=1.829495	occupation-accuracy=0.318280
+2024-04-06 22:20:26,937 [INFO]  Epoch[2] Train-cross-entropy=1.827150
+2024-04-06 22:20:26,937 [INFO]  Epoch[2] Train-occupation-accuracy=0.315999
+2024-04-06 22:20:26,938 [INFO]  Epoch[2] Time cost=14.604
+2024-04-06 22:20:26,982 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_occupation\model-0002.params"
+2024-04-06 22:20:27,620 [INFO]  Epoch[2] Validation-cross-entropy=1.851685
+2024-04-06 22:20:27,621 [INFO]  Epoch[2] Validation-occupation-accuracy=0.301902
+2024-04-06 22:20:34,791 [INFO]  Epoch[3] Batch [1037]	Speed: 2315.72 samples/sec	cross-entropy=1.828628	occupation-accuracy=0.318039
+2024-04-06 22:20:40,661 [INFO]  Epoch[3] Train-cross-entropy=1.826257
+2024-04-06 22:20:40,661 [INFO]  Epoch[3] Train-occupation-accuracy=0.316240
+2024-04-06 22:20:40,661 [INFO]  Epoch[3] Time cost=13.041
+2024-04-06 22:20:40,694 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_occupation\model-0003.params"
+2024-04-06 22:20:41,281 [INFO]  Epoch[3] Validation-cross-entropy=1.851210
+2024-04-06 22:20:41,281 [INFO]  Epoch[3] Validation-occupation-accuracy=0.302989
+2024-04-06 22:20:48,302 [INFO]  Epoch[4] Batch [1037]	Speed: 2365.16 samples/sec	cross-entropy=1.828223	occupation-accuracy=0.317558
+2024-04-06 22:20:54,208 [INFO]  Epoch[4] Train-cross-entropy=1.825776
+2024-04-06 22:20:54,208 [INFO]  Epoch[4] Train-occupation-accuracy=0.316120
+2024-04-06 22:20:54,208 [INFO]  Epoch[4] Time cost=12.928
+2024-04-06 22:20:54,240 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_occupation\model-0004.params"
+2024-04-06 22:20:54,816 [INFO]  Epoch[4] Validation-cross-entropy=1.851340
+2024-04-06 22:20:54,816 [INFO]  Epoch[4] Validation-occupation-accuracy=0.303261
+2024-04-06 22:21:02,636 [INFO]  Epoch[5] Batch [1037]	Speed: 2123.19 samples/sec	cross-entropy=1.827895	occupation-accuracy=0.317799
+2024-04-06 22:21:10,107 [INFO]  Epoch[5] Train-cross-entropy=1.825419
+2024-04-06 22:21:10,107 [INFO]  Epoch[5] Train-occupation-accuracy=0.316180
+2024-04-06 22:21:10,107 [INFO]  Epoch[5] Time cost=15.292
+2024-04-06 22:21:10,136 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_occupation\model-0005.params"
+2024-04-06 22:21:10,706 [INFO]  Epoch[5] Validation-cross-entropy=1.851442
+2024-04-06 22:21:10,706 [INFO]  Epoch[5] Validation-occupation-accuracy=0.303804
+2024-04-06 22:21:17,341 [INFO]  Epoch[6] Batch [1037]	Speed: 2502.80 samples/sec	cross-entropy=1.827671	occupation-accuracy=0.317377
+2024-04-06 22:21:23,082 [INFO]  Epoch[6] Train-cross-entropy=1.825168
+2024-04-06 22:21:23,083 [INFO]  Epoch[6] Train-occupation-accuracy=0.316180
+2024-04-06 22:21:23,083 [INFO]  Epoch[6] Time cost=12.377
+2024-04-06 22:21:23,141 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_occupation\model-0006.params"
+2024-04-06 22:21:23,779 [INFO]  Epoch[6] Validation-cross-entropy=1.851441
+2024-04-06 22:21:23,779 [INFO]  Epoch[6] Validation-occupation-accuracy=0.304076
+2024-04-06 22:21:30,214 [INFO]  Epoch[7] Batch [1037]	Speed: 2580.57 samples/sec	cross-entropy=1.827481	occupation-accuracy=0.317076
+2024-04-06 22:21:35,837 [INFO]  Epoch[7] Train-cross-entropy=1.824978
+2024-04-06 22:21:35,838 [INFO]  Epoch[7] Train-occupation-accuracy=0.316361
+2024-04-06 22:21:35,838 [INFO]  Epoch[7] Time cost=12.060
+2024-04-06 22:21:35,870 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_occupation\model-0007.params"
+2024-04-06 22:21:36,425 [INFO]  Epoch[7] Validation-cross-entropy=1.851453
+2024-04-06 22:21:36,426 [INFO]  Epoch[7] Validation-occupation-accuracy=0.303533
+2024-04-06 22:21:42,646 [INFO]  Epoch[8] Batch [1037]	Speed: 2670.37 samples/sec	cross-entropy=1.827368	occupation-accuracy=0.316594
+2024-04-06 22:21:48,113 [INFO]  Epoch[8] Train-cross-entropy=1.824880
+2024-04-06 22:21:48,113 [INFO]  Epoch[8] Train-occupation-accuracy=0.316059
+2024-04-06 22:21:48,113 [INFO]  Epoch[8] Time cost=11.686
+2024-04-06 22:21:48,147 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_occupation\model-0008.params"
+2024-04-06 22:21:48,720 [INFO]  No improvement detected for 5 epochs compared to 1.8512100541073344 last error obtained: 1.8516828293385712, stopping here
+2024-04-06 22:21:48,720 [INFO]  
+========== done (123.93545365333557 s) fit model
+2024-04-06 22:29:45,327 [INFO]  
+========== start: fit model
+2024-04-06 22:29:45,329 [WARNING]  Already bound, ignoring bind()
+2024-04-06 22:29:45,648 [INFO]  Epoch[0] Batch [789]	Speed: 40109.30 samples/sec	cross-entropy=3.765156	PM10-accuracy=0.000000
+2024-04-06 22:29:46,012 [INFO]  Epoch[0] Train-cross-entropy=3.151213
+2024-04-06 22:29:46,013 [INFO]  Epoch[0] Train-PM10-accuracy=0.000000
+2024-04-06 22:29:46,014 [INFO]  Epoch[0] Time cost=0.684
+2024-04-06 22:29:46,022 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0000.params"
+2024-04-06 22:29:46,064 [INFO]  Epoch[0] Validation-cross-entropy=3.478401
+2024-04-06 22:29:46,065 [INFO]  Epoch[0] Validation-PM10-accuracy=0.000000
+2024-04-06 22:29:46,402 [INFO]  Epoch[1] Batch [789]	Speed: 37665.59 samples/sec	cross-entropy=3.308001	PM10-accuracy=0.000000
+2024-04-06 22:29:46,719 [INFO]  Epoch[1] Train-cross-entropy=3.034010
+2024-04-06 22:29:46,720 [INFO]  Epoch[1] Train-PM10-accuracy=0.000000
+2024-04-06 22:29:46,721 [INFO]  Epoch[1] Time cost=0.654
+2024-04-06 22:29:46,729 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0001.params"
+2024-04-06 22:29:46,764 [INFO]  Epoch[1] Validation-cross-entropy=3.422355
+2024-04-06 22:29:46,765 [INFO]  Epoch[1] Validation-PM10-accuracy=0.000000
+2024-04-06 22:29:47,096 [INFO]  Epoch[2] Batch [789]	Speed: 38269.37 samples/sec	cross-entropy=3.212559	PM10-accuracy=0.000000
+2024-04-06 22:29:47,465 [INFO]  Epoch[2] Train-cross-entropy=2.965458
+2024-04-06 22:29:47,466 [INFO]  Epoch[2] Train-PM10-accuracy=0.000000
+2024-04-06 22:29:47,467 [INFO]  Epoch[2] Time cost=0.701
+2024-04-06 22:29:47,474 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0002.params"
+2024-04-06 22:29:47,514 [INFO]  Epoch[2] Validation-cross-entropy=3.418101
+2024-04-06 22:29:47,515 [INFO]  Epoch[2] Validation-PM10-accuracy=0.000000
+2024-04-06 22:29:47,869 [INFO]  Epoch[3] Batch [789]	Speed: 35825.39 samples/sec	cross-entropy=3.155314	PM10-accuracy=0.000000
+2024-04-06 22:29:48,245 [INFO]  Epoch[3] Train-cross-entropy=2.930458
+2024-04-06 22:29:48,247 [INFO]  Epoch[3] Train-PM10-accuracy=0.000000
+2024-04-06 22:29:48,247 [INFO]  Epoch[3] Time cost=0.731
+2024-04-06 22:29:48,255 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0003.params"
+2024-04-06 22:29:48,297 [INFO]  Epoch[3] Validation-cross-entropy=3.369490
+2024-04-06 22:29:48,297 [INFO]  Epoch[3] Validation-PM10-accuracy=0.000000
+2024-04-06 22:29:48,680 [INFO]  Epoch[4] Batch [789]	Speed: 32992.60 samples/sec	cross-entropy=3.109143	PM10-accuracy=0.000000
+2024-04-06 22:29:48,999 [INFO]  Epoch[4] Train-cross-entropy=2.909412
+2024-04-06 22:29:49,000 [INFO]  Epoch[4] Train-PM10-accuracy=0.000000
+2024-04-06 22:29:49,000 [INFO]  Epoch[4] Time cost=0.702
+2024-04-06 22:29:49,081 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0004.params"
+2024-04-06 22:29:49,112 [INFO]  Epoch[4] Validation-cross-entropy=3.375073
+2024-04-06 22:29:49,113 [INFO]  Epoch[4] Validation-PM10-accuracy=0.000000
+2024-04-06 22:29:49,426 [INFO]  Epoch[5] Batch [789]	Speed: 40499.41 samples/sec	cross-entropy=3.080177	PM10-accuracy=0.000000
+2024-04-06 22:29:49,733 [INFO]  Epoch[5] Train-cross-entropy=2.888877
+2024-04-06 22:29:49,733 [INFO]  Epoch[5] Train-PM10-accuracy=0.000000
+2024-04-06 22:29:49,733 [INFO]  Epoch[5] Time cost=0.620
+2024-04-06 22:29:49,739 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0005.params"
+2024-04-06 22:29:49,776 [INFO]  Epoch[5] Validation-cross-entropy=3.393641
+2024-04-06 22:29:49,776 [INFO]  Epoch[5] Validation-PM10-accuracy=0.000000
+2024-04-06 22:29:50,082 [INFO]  Epoch[6] Batch [789]	Speed: 41275.74 samples/sec	cross-entropy=3.062593	PM10-accuracy=0.000000
+2024-04-06 22:29:50,411 [INFO]  Epoch[6] Train-cross-entropy=2.878911
+2024-04-06 22:29:50,411 [INFO]  Epoch[6] Train-PM10-accuracy=0.000000
+2024-04-06 22:29:50,411 [INFO]  Epoch[6] Time cost=0.635
+2024-04-06 22:29:50,418 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0006.params"
+2024-04-06 22:29:50,446 [INFO]  Epoch[6] Validation-cross-entropy=3.341383
+2024-04-06 22:29:50,447 [INFO]  Epoch[6] Validation-PM10-accuracy=0.000000
+2024-04-06 22:29:50,774 [INFO]  Epoch[7] Batch [789]	Speed: 38680.59 samples/sec	cross-entropy=3.041753	PM10-accuracy=0.000000
+2024-04-06 22:29:51,089 [INFO]  Epoch[7] Train-cross-entropy=2.868558
+2024-04-06 22:29:51,090 [INFO]  Epoch[7] Train-PM10-accuracy=0.000000
+2024-04-06 22:29:51,090 [INFO]  Epoch[7] Time cost=0.643
+2024-04-06 22:29:51,096 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0007.params"
+2024-04-06 22:29:51,130 [INFO]  Epoch[7] Validation-cross-entropy=3.333461
+2024-04-06 22:29:51,130 [INFO]  Epoch[7] Validation-PM10-accuracy=0.000000
+2024-04-06 22:29:51,483 [INFO]  Epoch[8] Batch [789]	Speed: 35787.57 samples/sec	cross-entropy=3.033410	PM10-accuracy=0.000000
+2024-04-06 22:29:51,801 [INFO]  Epoch[8] Train-cross-entropy=2.857262
+2024-04-06 22:29:51,801 [INFO]  Epoch[8] Train-PM10-accuracy=0.000000
+2024-04-06 22:29:51,801 [INFO]  Epoch[8] Time cost=0.670
+2024-04-06 22:29:51,807 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0008.params"
+2024-04-06 22:29:51,839 [INFO]  Epoch[8] Validation-cross-entropy=3.321117
+2024-04-06 22:29:51,840 [INFO]  Epoch[8] Validation-PM10-accuracy=0.000000
+2024-04-06 22:29:52,160 [INFO]  Epoch[9] Batch [789]	Speed: 39523.63 samples/sec	cross-entropy=3.025336	PM10-accuracy=0.000000
+2024-04-06 22:29:52,482 [INFO]  Epoch[9] Train-cross-entropy=2.845113
+2024-04-06 22:29:52,483 [INFO]  Epoch[9] Train-PM10-accuracy=0.000000
+2024-04-06 22:29:52,483 [INFO]  Epoch[9] Time cost=0.643
+2024-04-06 22:29:52,489 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0009.params"
+2024-04-06 22:29:52,527 [INFO]  Epoch[9] Validation-cross-entropy=3.285002
+2024-04-06 22:29:52,527 [INFO]  Epoch[9] Validation-PM10-accuracy=0.000000
+2024-04-06 22:29:52,854 [INFO]  Epoch[10] Batch [789]	Speed: 38680.51 samples/sec	cross-entropy=3.012706	PM10-accuracy=0.000000
+2024-04-06 22:29:53,169 [INFO]  Epoch[10] Train-cross-entropy=2.839269
+2024-04-06 22:29:53,169 [INFO]  Epoch[10] Train-PM10-accuracy=0.000000
+2024-04-06 22:29:53,169 [INFO]  Epoch[10] Time cost=0.642
+2024-04-06 22:29:53,175 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0010.params"
+2024-04-06 22:29:53,210 [INFO]  Epoch[10] Validation-cross-entropy=3.262076
+2024-04-06 22:29:53,211 [INFO]  Epoch[10] Validation-PM10-accuracy=0.000000
+2024-04-06 22:29:53,530 [INFO]  Epoch[11] Batch [789]	Speed: 39688.85 samples/sec	cross-entropy=3.005269	PM10-accuracy=0.000000
+2024-04-06 22:29:53,838 [INFO]  Epoch[11] Train-cross-entropy=2.833298
+2024-04-06 22:29:53,838 [INFO]  Epoch[11] Train-PM10-accuracy=0.000000
+2024-04-06 22:29:53,838 [INFO]  Epoch[11] Time cost=0.627
+2024-04-06 22:29:53,844 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0011.params"
+2024-04-06 22:29:53,875 [INFO]  Epoch[11] Validation-cross-entropy=3.256927
+2024-04-06 22:29:53,875 [INFO]  Epoch[11] Validation-PM10-accuracy=0.000000
+2024-04-06 22:29:54,192 [INFO]  Epoch[12] Batch [789]	Speed: 39934.18 samples/sec	cross-entropy=2.998269	PM10-accuracy=0.000000
+2024-04-06 22:29:54,505 [INFO]  Epoch[12] Train-cross-entropy=2.827632
+2024-04-06 22:29:54,505 [INFO]  Epoch[12] Train-PM10-accuracy=0.000000
+2024-04-06 22:29:54,505 [INFO]  Epoch[12] Time cost=0.630
+2024-04-06 22:29:54,511 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0012.params"
+2024-04-06 22:29:54,546 [INFO]  Epoch[12] Validation-cross-entropy=3.213636
+2024-04-06 22:29:54,546 [INFO]  Epoch[12] Validation-PM10-accuracy=0.000000
+2024-04-06 22:29:54,864 [INFO]  Epoch[13] Batch [789]	Speed: 39751.66 samples/sec	cross-entropy=2.988343	PM10-accuracy=0.000000
+2024-04-06 22:29:55,181 [INFO]  Epoch[13] Train-cross-entropy=2.822502
+2024-04-06 22:29:55,181 [INFO]  Epoch[13] Train-PM10-accuracy=0.000000
+2024-04-06 22:29:55,181 [INFO]  Epoch[13] Time cost=0.636
+2024-04-06 22:29:55,255 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0013.params"
+2024-04-06 22:29:55,289 [INFO]  Epoch[13] Validation-cross-entropy=3.206246
+2024-04-06 22:29:55,289 [INFO]  Epoch[13] Validation-PM10-accuracy=0.000000
+2024-04-06 22:29:55,603 [INFO]  Epoch[14] Batch [789]	Speed: 40372.62 samples/sec	cross-entropy=2.978060	PM10-accuracy=0.000000
+2024-04-06 22:29:56,012 [INFO]  Epoch[14] Train-cross-entropy=2.813214
+2024-04-06 22:29:56,013 [INFO]  Epoch[14] Train-PM10-accuracy=0.000000
+2024-04-06 22:29:56,013 [INFO]  Epoch[14] Time cost=0.723
+2024-04-06 22:29:56,020 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0014.params"
+2024-04-06 22:29:56,052 [INFO]  Epoch[14] Validation-cross-entropy=3.184343
+2024-04-06 22:29:56,053 [INFO]  Epoch[14] Validation-PM10-accuracy=0.000000
+2024-04-06 22:29:56,365 [INFO]  Epoch[15] Batch [789]	Speed: 40499.35 samples/sec	cross-entropy=2.976663	PM10-accuracy=0.000000
+2024-04-06 22:29:56,682 [INFO]  Epoch[15] Train-cross-entropy=2.814726
+2024-04-06 22:29:56,683 [INFO]  Epoch[15] Train-PM10-accuracy=0.000000
+2024-04-06 22:29:56,683 [INFO]  Epoch[15] Time cost=0.630
+2024-04-06 22:29:56,689 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0015.params"
+2024-04-06 22:29:56,724 [INFO]  Epoch[15] Validation-cross-entropy=3.170615
+2024-04-06 22:29:56,725 [INFO]  Epoch[15] Validation-PM10-accuracy=0.000000
+2024-04-06 22:29:57,040 [INFO]  Epoch[16] Batch [789]	Speed: 40122.01 samples/sec	cross-entropy=2.970291	PM10-accuracy=0.000000
+2024-04-06 22:29:57,360 [INFO]  Epoch[16] Train-cross-entropy=2.808760
+2024-04-06 22:29:57,360 [INFO]  Epoch[16] Train-PM10-accuracy=0.000000
+2024-04-06 22:29:57,361 [INFO]  Epoch[16] Time cost=0.636
+2024-04-06 22:29:57,368 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0016.params"
+2024-04-06 22:29:57,402 [INFO]  Epoch[16] Validation-cross-entropy=3.172595
+2024-04-06 22:29:57,403 [INFO]  Epoch[16] Validation-PM10-accuracy=0.000000
+2024-04-06 22:29:57,726 [INFO]  Epoch[17] Batch [789]	Speed: 39207.03 samples/sec	cross-entropy=2.963618	PM10-accuracy=0.000000
+2024-04-06 22:29:58,050 [INFO]  Epoch[17] Train-cross-entropy=2.810689
+2024-04-06 22:29:58,050 [INFO]  Epoch[17] Train-PM10-accuracy=0.000000
+2024-04-06 22:29:58,050 [INFO]  Epoch[17] Time cost=0.647
+2024-04-06 22:29:58,057 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0017.params"
+2024-04-06 22:29:58,090 [INFO]  Epoch[17] Validation-cross-entropy=3.150979
+2024-04-06 22:29:58,090 [INFO]  Epoch[17] Validation-PM10-accuracy=0.000000
+2024-04-06 22:29:58,411 [INFO]  Epoch[18] Batch [789]	Speed: 39508.62 samples/sec	cross-entropy=2.956599	PM10-accuracy=0.000000
+2024-04-06 22:29:58,727 [INFO]  Epoch[18] Train-cross-entropy=2.805058
+2024-04-06 22:29:58,727 [INFO]  Epoch[18] Train-PM10-accuracy=0.000000
+2024-04-06 22:29:58,727 [INFO]  Epoch[18] Time cost=0.636
+2024-04-06 22:29:58,734 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0018.params"
+2024-04-06 22:29:58,772 [INFO]  Epoch[18] Validation-cross-entropy=3.147638
+2024-04-06 22:29:58,772 [INFO]  Epoch[18] Validation-PM10-accuracy=0.000000
+2024-04-06 22:29:59,090 [INFO]  Epoch[19] Batch [789]	Speed: 39751.69 samples/sec	cross-entropy=2.949942	PM10-accuracy=0.000000
+2024-04-06 22:29:59,408 [INFO]  Epoch[19] Train-cross-entropy=2.798017
+2024-04-06 22:29:59,408 [INFO]  Epoch[19] Train-PM10-accuracy=0.000000
+2024-04-06 22:29:59,408 [INFO]  Epoch[19] Time cost=0.636
+2024-04-06 22:29:59,415 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0019.params"
+2024-04-06 22:29:59,451 [INFO]  Epoch[19] Validation-cross-entropy=3.161292
+2024-04-06 22:29:59,452 [INFO]  Epoch[19] Validation-PM10-accuracy=0.000000
+2024-04-06 22:29:59,776 [INFO]  Epoch[20] Batch [789]	Speed: 38913.47 samples/sec	cross-entropy=2.949074	PM10-accuracy=0.000000
+2024-04-06 22:30:00,110 [INFO]  Epoch[20] Train-cross-entropy=2.797231
+2024-04-06 22:30:00,111 [INFO]  Epoch[20] Train-PM10-accuracy=0.000000
+2024-04-06 22:30:00,111 [INFO]  Epoch[20] Time cost=0.660
+2024-04-06 22:30:00,118 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0020.params"
+2024-04-06 22:30:00,150 [INFO]  Epoch[20] Validation-cross-entropy=3.123533
+2024-04-06 22:30:00,150 [INFO]  Epoch[20] Validation-PM10-accuracy=0.000000
+2024-04-06 22:30:00,492 [INFO]  Epoch[21] Batch [789]	Speed: 37018.22 samples/sec	cross-entropy=2.944074	PM10-accuracy=0.000000
+2024-04-06 22:30:00,827 [INFO]  Epoch[21] Train-cross-entropy=2.796064
+2024-04-06 22:30:00,827 [INFO]  Epoch[21] Train-PM10-accuracy=0.000000
+2024-04-06 22:30:00,827 [INFO]  Epoch[21] Time cost=0.676
+2024-04-06 22:30:00,834 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0021.params"
+2024-04-06 22:30:00,869 [INFO]  Epoch[21] Validation-cross-entropy=3.094155
+2024-04-06 22:30:00,869 [INFO]  Epoch[21] Validation-PM10-accuracy=0.000000
+2024-04-06 22:30:01,206 [INFO]  Epoch[22] Batch [789]	Speed: 37496.69 samples/sec	cross-entropy=2.942380	PM10-accuracy=0.000000
+2024-04-06 22:30:01,527 [INFO]  Epoch[22] Train-cross-entropy=2.789018
+2024-04-06 22:30:01,527 [INFO]  Epoch[22] Train-PM10-accuracy=0.000000
+2024-04-06 22:30:01,528 [INFO]  Epoch[22] Time cost=0.659
+2024-04-06 22:30:01,542 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0022.params"
+2024-04-06 22:30:01,577 [INFO]  Epoch[22] Validation-cross-entropy=3.110410
+2024-04-06 22:30:01,577 [INFO]  Epoch[22] Validation-PM10-accuracy=0.000000
+2024-04-06 22:30:01,902 [INFO]  Epoch[23] Batch [789]	Speed: 39031.19 samples/sec	cross-entropy=2.940550	PM10-accuracy=0.000000
+2024-04-06 22:30:02,216 [INFO]  Epoch[23] Train-cross-entropy=2.790344
+2024-04-06 22:30:02,217 [INFO]  Epoch[23] Train-PM10-accuracy=0.000000
+2024-04-06 22:30:02,217 [INFO]  Epoch[23] Time cost=0.640
+2024-04-06 22:30:02,224 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0023.params"
+2024-04-06 22:30:02,258 [INFO]  Epoch[23] Validation-cross-entropy=3.069679
+2024-04-06 22:30:02,258 [INFO]  Epoch[23] Validation-PM10-accuracy=0.000000
+2024-04-06 22:30:02,582 [INFO]  Epoch[24] Batch [789]	Speed: 39149.37 samples/sec	cross-entropy=2.937828	PM10-accuracy=0.000000
+2024-04-06 22:30:02,890 [INFO]  Epoch[24] Train-cross-entropy=2.789611
+2024-04-06 22:30:02,890 [INFO]  Epoch[24] Train-PM10-accuracy=0.000000
+2024-04-06 22:30:02,891 [INFO]  Epoch[24] Time cost=0.633
+2024-04-06 22:30:02,897 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0024.params"
+2024-04-06 22:30:02,932 [INFO]  Epoch[24] Validation-cross-entropy=3.035233
+2024-04-06 22:30:02,932 [INFO]  Epoch[24] Validation-PM10-accuracy=0.000000
+2024-04-06 22:30:03,297 [INFO]  Epoch[25] Batch [789]	Speed: 34726.42 samples/sec	cross-entropy=2.936128	PM10-accuracy=0.000000
+2024-04-06 22:30:03,659 [INFO]  Epoch[25] Train-cross-entropy=2.786373
+2024-04-06 22:30:03,660 [INFO]  Epoch[25] Train-PM10-accuracy=0.000000
+2024-04-06 22:30:03,660 [INFO]  Epoch[25] Time cost=0.728
+2024-04-06 22:30:03,667 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0025.params"
+2024-04-06 22:30:03,707 [INFO]  Epoch[25] Validation-cross-entropy=3.045121
+2024-04-06 22:30:03,708 [INFO]  Epoch[25] Validation-PM10-accuracy=0.000000
+2024-04-06 22:30:04,102 [INFO]  Epoch[26] Batch [789]	Speed: 32137.65 samples/sec	cross-entropy=2.927527	PM10-accuracy=0.000000
+2024-04-06 22:30:04,495 [INFO]  Epoch[26] Train-cross-entropy=2.783541
+2024-04-06 22:30:04,495 [INFO]  Epoch[26] Train-PM10-accuracy=0.000000
+2024-04-06 22:30:04,496 [INFO]  Epoch[26] Time cost=0.788
+2024-04-06 22:30:04,503 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0026.params"
+2024-04-06 22:30:04,548 [INFO]  Epoch[26] Validation-cross-entropy=3.048103
+2024-04-06 22:30:04,548 [INFO]  Epoch[26] Validation-PM10-accuracy=0.000000
+2024-04-06 22:30:04,917 [INFO]  Epoch[27] Batch [789]	Speed: 34381.93 samples/sec	cross-entropy=2.934441	PM10-accuracy=0.000000
+2024-04-06 22:30:05,276 [INFO]  Epoch[27] Train-cross-entropy=2.780671
+2024-04-06 22:30:05,277 [INFO]  Epoch[27] Train-PM10-accuracy=0.000000
+2024-04-06 22:30:05,277 [INFO]  Epoch[27] Time cost=0.729
+2024-04-06 22:30:05,283 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0027.params"
+2024-04-06 22:30:05,322 [INFO]  Epoch[27] Validation-cross-entropy=3.013872
+2024-04-06 22:30:05,322 [INFO]  Epoch[27] Validation-PM10-accuracy=0.000000
+2024-04-06 22:30:05,668 [INFO]  Epoch[28] Batch [789]	Speed: 36598.66 samples/sec	cross-entropy=2.927079	PM10-accuracy=0.000000
+2024-04-06 22:30:05,985 [INFO]  Epoch[28] Train-cross-entropy=2.779706
+2024-04-06 22:30:05,985 [INFO]  Epoch[28] Train-PM10-accuracy=0.000000
+2024-04-06 22:30:05,986 [INFO]  Epoch[28] Time cost=0.664
+2024-04-06 22:30:05,992 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0028.params"
+2024-04-06 22:30:06,027 [INFO]  Epoch[28] Validation-cross-entropy=3.003790
+2024-04-06 22:30:06,027 [INFO]  Epoch[28] Validation-PM10-accuracy=0.000000
+2024-04-06 22:30:06,337 [INFO]  Epoch[29] Batch [789]	Speed: 40879.92 samples/sec	cross-entropy=2.924172	PM10-accuracy=0.000000
+2024-04-06 22:30:06,668 [INFO]  Epoch[29] Train-cross-entropy=2.777445
+2024-04-06 22:30:06,668 [INFO]  Epoch[29] Train-PM10-accuracy=0.000000
+2024-04-06 22:30:06,668 [INFO]  Epoch[29] Time cost=0.640
+2024-04-06 22:30:06,674 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0029.params"
+2024-04-06 22:30:06,709 [INFO]  Epoch[29] Validation-cross-entropy=3.008270
+2024-04-06 22:30:06,710 [INFO]  Epoch[29] Validation-PM10-accuracy=0.000000
+2024-04-06 22:30:07,038 [INFO]  Epoch[30] Batch [789]	Speed: 38527.37 samples/sec	cross-entropy=2.928439	PM10-accuracy=0.000000
+2024-04-06 22:30:07,354 [INFO]  Epoch[30] Train-cross-entropy=2.777065
+2024-04-06 22:30:07,354 [INFO]  Epoch[30] Train-PM10-accuracy=0.000000
+2024-04-06 22:30:07,354 [INFO]  Epoch[30] Time cost=0.644
+2024-04-06 22:30:07,361 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0030.params"
+2024-04-06 22:30:07,395 [INFO]  Epoch[30] Validation-cross-entropy=3.003772
+2024-04-06 22:30:07,395 [INFO]  Epoch[30] Validation-PM10-accuracy=0.000000
+2024-04-06 22:30:07,723 [INFO]  Epoch[31] Batch [789]	Speed: 38450.32 samples/sec	cross-entropy=2.921418	PM10-accuracy=0.000000
+2024-04-06 22:30:08,070 [INFO]  Epoch[31] Train-cross-entropy=2.773004
+2024-04-06 22:30:08,070 [INFO]  Epoch[31] Train-PM10-accuracy=0.000000
+2024-04-06 22:30:08,070 [INFO]  Epoch[31] Time cost=0.675
+2024-04-06 22:30:08,078 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0031.params"
+2024-04-06 22:30:08,114 [INFO]  Epoch[31] Validation-cross-entropy=3.015313
+2024-04-06 22:30:08,114 [INFO]  Epoch[31] Validation-PM10-accuracy=0.000000
+2024-04-06 22:30:08,434 [INFO]  Epoch[32] Batch [789]	Speed: 39508.20 samples/sec	cross-entropy=2.921758	PM10-accuracy=0.000000
+2024-04-06 22:30:08,757 [INFO]  Epoch[32] Train-cross-entropy=2.771937
+2024-04-06 22:30:08,757 [INFO]  Epoch[32] Train-PM10-accuracy=0.000000
+2024-04-06 22:30:08,758 [INFO]  Epoch[32] Time cost=0.644
+2024-04-06 22:30:08,763 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0032.params"
+2024-04-06 22:30:08,797 [INFO]  Epoch[32] Validation-cross-entropy=3.017903
+2024-04-06 22:30:08,797 [INFO]  Epoch[32] Validation-PM10-accuracy=0.000000
+2024-04-06 22:30:09,137 [INFO]  Epoch[33] Batch [789]	Speed: 37339.07 samples/sec	cross-entropy=2.919014	PM10-accuracy=0.000000
+2024-04-06 22:30:09,473 [INFO]  Epoch[33] Train-cross-entropy=2.771929
+2024-04-06 22:30:09,474 [INFO]  Epoch[33] Train-PM10-accuracy=0.000000
+2024-04-06 22:30:09,474 [INFO]  Epoch[33] Time cost=0.677
+2024-04-06 22:30:09,480 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0033.params"
+2024-04-06 22:30:09,516 [INFO]  Epoch[33] Validation-cross-entropy=2.995436
+2024-04-06 22:30:09,517 [INFO]  Epoch[33] Validation-PM10-accuracy=0.000000
+2024-04-06 22:30:09,848 [INFO]  Epoch[34] Batch [789]	Speed: 38277.62 samples/sec	cross-entropy=2.917261	PM10-accuracy=0.000000
+2024-04-06 22:30:10,166 [INFO]  Epoch[34] Train-cross-entropy=2.771127
+2024-04-06 22:30:10,166 [INFO]  Epoch[34] Train-PM10-accuracy=0.000000
+2024-04-06 22:30:10,166 [INFO]  Epoch[34] Time cost=0.649
+2024-04-06 22:30:10,172 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0034.params"
+2024-04-06 22:30:10,205 [INFO]  Epoch[34] Validation-cross-entropy=2.994138
+2024-04-06 22:30:10,205 [INFO]  Epoch[34] Validation-PM10-accuracy=0.000000
+2024-04-06 22:30:10,536 [INFO]  Epoch[35] Batch [789]	Speed: 38332.65 samples/sec	cross-entropy=2.918276	PM10-accuracy=0.000000
+2024-04-06 22:30:10,859 [INFO]  Epoch[35] Train-cross-entropy=2.767412
+2024-04-06 22:30:10,859 [INFO]  Epoch[35] Train-PM10-accuracy=0.000000
+2024-04-06 22:30:10,859 [INFO]  Epoch[35] Time cost=0.653
+2024-04-06 22:30:10,866 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0035.params"
+2024-04-06 22:30:10,903 [INFO]  Epoch[35] Validation-cross-entropy=2.979421
+2024-04-06 22:30:10,903 [INFO]  Epoch[35] Validation-PM10-accuracy=0.000000
+2024-04-06 22:30:11,228 [INFO]  Epoch[36] Batch [789]	Speed: 39031.13 samples/sec	cross-entropy=2.915157	PM10-accuracy=0.000000
+2024-04-06 22:30:11,546 [INFO]  Epoch[36] Train-cross-entropy=2.767703
+2024-04-06 22:30:11,546 [INFO]  Epoch[36] Train-PM10-accuracy=0.000000
+2024-04-06 22:30:11,546 [INFO]  Epoch[36] Time cost=0.643
+2024-04-06 22:30:11,553 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0036.params"
+2024-04-06 22:30:11,590 [INFO]  Epoch[36] Validation-cross-entropy=2.973819
+2024-04-06 22:30:11,590 [INFO]  Epoch[36] Validation-PM10-accuracy=0.000000
+2024-04-06 22:30:11,914 [INFO]  Epoch[37] Batch [789]	Speed: 39031.16 samples/sec	cross-entropy=2.914257	PM10-accuracy=0.000000
+2024-04-06 22:30:12,238 [INFO]  Epoch[37] Train-cross-entropy=2.767608
+2024-04-06 22:30:12,238 [INFO]  Epoch[37] Train-PM10-accuracy=0.000000
+2024-04-06 22:30:12,238 [INFO]  Epoch[37] Time cost=0.648
+2024-04-06 22:30:12,245 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0037.params"
+2024-04-06 22:30:12,277 [INFO]  Epoch[37] Validation-cross-entropy=2.977141
+2024-04-06 22:30:12,277 [INFO]  Epoch[37] Validation-PM10-accuracy=0.000000
+2024-04-06 22:30:12,606 [INFO]  Epoch[38] Batch [789]	Speed: 38391.38 samples/sec	cross-entropy=2.910896	PM10-accuracy=0.000000
+2024-04-06 22:30:12,919 [INFO]  Epoch[38] Train-cross-entropy=2.759108
+2024-04-06 22:30:12,920 [INFO]  Epoch[38] Train-PM10-accuracy=0.000000
+2024-04-06 22:30:12,920 [INFO]  Epoch[38] Time cost=0.643
+2024-04-06 22:30:12,927 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0038.params"
+2024-04-06 22:30:12,962 [INFO]  Epoch[38] Validation-cross-entropy=2.973120
+2024-04-06 22:30:12,962 [INFO]  Epoch[38] Validation-PM10-accuracy=0.000000
+2024-04-06 22:30:13,283 [INFO]  Epoch[39] Batch [789]	Speed: 39629.77 samples/sec	cross-entropy=2.902634	PM10-accuracy=0.000000
+2024-04-06 22:30:13,603 [INFO]  Epoch[39] Train-cross-entropy=2.766705
+2024-04-06 22:30:13,603 [INFO]  Epoch[39] Train-PM10-accuracy=0.000000
+2024-04-06 22:30:13,603 [INFO]  Epoch[39] Time cost=0.641
+2024-04-06 22:30:13,608 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0039.params"
+2024-04-06 22:30:13,643 [INFO]  Epoch[39] Validation-cross-entropy=2.982176
+2024-04-06 22:30:13,643 [INFO]  Epoch[39] Validation-PM10-accuracy=0.000000
+2024-04-06 22:30:13,948 [INFO]  Epoch[40] Batch [789]	Speed: 41541.12 samples/sec	cross-entropy=2.907876	PM10-accuracy=0.000000
+2024-04-06 22:30:14,263 [INFO]  Epoch[40] Train-cross-entropy=2.763731
+2024-04-06 22:30:14,263 [INFO]  Epoch[40] Train-PM10-accuracy=0.000000
+2024-04-06 22:30:14,263 [INFO]  Epoch[40] Time cost=0.620
+2024-04-06 22:30:14,270 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0040.params"
+2024-04-06 22:30:14,304 [INFO]  Epoch[40] Validation-cross-entropy=2.985678
+2024-04-06 22:30:14,304 [INFO]  Epoch[40] Validation-PM10-accuracy=0.000000
+2024-04-06 22:30:14,622 [INFO]  Epoch[41] Batch [789]	Speed: 39874.43 samples/sec	cross-entropy=2.898542	PM10-accuracy=0.000000
+2024-04-06 22:30:14,920 [INFO]  Epoch[41] Train-cross-entropy=2.758099
+2024-04-06 22:30:14,921 [INFO]  Epoch[41] Train-PM10-accuracy=0.000000
+2024-04-06 22:30:14,921 [INFO]  Epoch[41] Time cost=0.617
+2024-04-06 22:30:14,927 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0041.params"
+2024-04-06 22:30:14,962 [INFO]  Epoch[41] Validation-cross-entropy=3.003659
+2024-04-06 22:30:14,962 [INFO]  Epoch[41] Validation-PM10-accuracy=0.000000
+2024-04-06 22:30:15,273 [INFO]  Epoch[42] Batch [789]	Speed: 40751.11 samples/sec	cross-entropy=2.899066	PM10-accuracy=0.000000
+2024-04-06 22:30:15,593 [INFO]  Epoch[42] Train-cross-entropy=2.759905
+2024-04-06 22:30:15,593 [INFO]  Epoch[42] Train-PM10-accuracy=0.000000
+2024-04-06 22:30:15,593 [INFO]  Epoch[42] Time cost=0.631
+2024-04-06 22:30:15,600 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0042.params"
+2024-04-06 22:30:15,637 [INFO]  Epoch[42] Validation-cross-entropy=2.972457
+2024-04-06 22:30:15,637 [INFO]  Epoch[42] Validation-PM10-accuracy=0.000000
+2024-04-06 22:30:15,959 [INFO]  Epoch[43] Batch [789]	Speed: 39326.36 samples/sec	cross-entropy=2.898655	PM10-accuracy=0.000000
+2024-04-06 22:30:16,282 [INFO]  Epoch[43] Train-cross-entropy=2.759164
+2024-04-06 22:30:16,282 [INFO]  Epoch[43] Train-PM10-accuracy=0.000000
+2024-04-06 22:30:16,282 [INFO]  Epoch[43] Time cost=0.644
+2024-04-06 22:30:16,289 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0043.params"
+2024-04-06 22:30:16,326 [INFO]  Epoch[43] Validation-cross-entropy=2.977806
+2024-04-06 22:30:16,326 [INFO]  Epoch[43] Validation-PM10-accuracy=0.000000
+2024-04-06 22:30:16,659 [INFO]  Epoch[44] Batch [789]	Speed: 37998.01 samples/sec	cross-entropy=2.892050	PM10-accuracy=0.000000
+2024-04-06 22:30:16,981 [INFO]  Epoch[44] Train-cross-entropy=2.755892
+2024-04-06 22:30:16,981 [INFO]  Epoch[44] Train-PM10-accuracy=0.000000
+2024-04-06 22:30:16,981 [INFO]  Epoch[44] Time cost=0.655
+2024-04-06 22:30:16,993 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0044.params"
+2024-04-06 22:30:17,028 [INFO]  Epoch[44] Validation-cross-entropy=2.957666
+2024-04-06 22:30:17,029 [INFO]  Epoch[44] Validation-PM10-accuracy=0.000000
+2024-04-06 22:30:17,339 [INFO]  Epoch[45] Batch [789]	Speed: 40877.17 samples/sec	cross-entropy=2.897839	PM10-accuracy=0.000000
+2024-04-06 22:30:17,642 [INFO]  Epoch[45] Train-cross-entropy=2.754361
+2024-04-06 22:30:17,642 [INFO]  Epoch[45] Train-PM10-accuracy=0.000000
+2024-04-06 22:30:17,642 [INFO]  Epoch[45] Time cost=0.613
+2024-04-06 22:30:17,650 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0045.params"
+2024-04-06 22:30:17,687 [INFO]  Epoch[45] Validation-cross-entropy=2.990076
+2024-04-06 22:30:17,687 [INFO]  Epoch[45] Validation-PM10-accuracy=0.000000
+2024-04-06 22:30:18,020 [INFO]  Epoch[46] Batch [789]	Speed: 38047.10 samples/sec	cross-entropy=2.887657	PM10-accuracy=0.000000
+2024-04-06 22:30:18,342 [INFO]  Epoch[46] Train-cross-entropy=2.753794
+2024-04-06 22:30:18,342 [INFO]  Epoch[46] Train-PM10-accuracy=0.000000
+2024-04-06 22:30:18,342 [INFO]  Epoch[46] Time cost=0.655
+2024-04-06 22:30:18,349 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0046.params"
+2024-04-06 22:30:18,385 [INFO]  Epoch[46] Validation-cross-entropy=2.964616
+2024-04-06 22:30:18,385 [INFO]  Epoch[46] Validation-PM10-accuracy=0.000000
+2024-04-06 22:30:18,703 [INFO]  Epoch[47] Batch [789]	Speed: 39788.67 samples/sec	cross-entropy=2.888818	PM10-accuracy=0.000000
+2024-04-06 22:30:19,047 [INFO]  Epoch[47] Train-cross-entropy=2.753235
+2024-04-06 22:30:19,047 [INFO]  Epoch[47] Train-PM10-accuracy=0.000000
+2024-04-06 22:30:19,047 [INFO]  Epoch[47] Time cost=0.662
+2024-04-06 22:30:19,055 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0047.params"
+2024-04-06 22:30:19,095 [INFO]  Epoch[47] Validation-cross-entropy=2.976909
+2024-04-06 22:30:19,095 [INFO]  Epoch[47] Validation-PM10-accuracy=0.000000
+2024-04-06 22:30:19,454 [INFO]  Epoch[48] Batch [789]	Speed: 35298.79 samples/sec	cross-entropy=2.890187	PM10-accuracy=0.000000
+2024-04-06 22:30:19,808 [INFO]  Epoch[48] Train-cross-entropy=2.753454
+2024-04-06 22:30:19,808 [INFO]  Epoch[48] Train-PM10-accuracy=0.000000
+2024-04-06 22:30:19,808 [INFO]  Epoch[48] Time cost=0.713
+2024-04-06 22:30:19,816 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0048.params"
+2024-04-06 22:30:19,859 [INFO]  Epoch[48] Validation-cross-entropy=2.964543
+2024-04-06 22:30:19,860 [INFO]  Epoch[48] Validation-PM10-accuracy=0.000000
+2024-04-06 22:30:20,229 [INFO]  Epoch[49] Batch [789]	Speed: 34268.76 samples/sec	cross-entropy=2.890530	PM10-accuracy=0.000000
+2024-04-06 22:30:20,582 [INFO]  Epoch[49] Train-cross-entropy=2.748688
+2024-04-06 22:30:20,582 [INFO]  Epoch[49] Train-PM10-accuracy=0.000000
+2024-04-06 22:30:20,583 [INFO]  Epoch[49] Time cost=0.723
+2024-04-06 22:30:20,590 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_PM10\model-0049.params"
+2024-04-06 22:30:20,629 [INFO]  No improvement detected for 5 epochs compared to 2.95766593855724 last error obtained: 3.0039175950992876, stopping here
+2024-04-06 22:30:20,629 [INFO]  
+========== done (35.3019814491272 s) fit model
+2024-04-07 08:23:52,997 [INFO]  Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-04-07 08:23:53,055 [INFO]  Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.

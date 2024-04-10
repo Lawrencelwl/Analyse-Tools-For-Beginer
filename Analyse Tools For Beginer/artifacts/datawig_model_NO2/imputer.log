@@ -1,0 +1,71 @@
+2024-04-06 22:30:48,186 [INFO]  
+========== start: fit model
+2024-04-06 22:30:48,186 [WARNING]  Already bound, ignoring bind()
+2024-04-06 22:30:48,517 [INFO]  Epoch[0] Batch [789]	Speed: 38332.71 samples/sec	cross-entropy=4.860775	NO2-accuracy=0.451899
+2024-04-06 22:30:48,863 [INFO]  Epoch[0] Train-cross-entropy=4.337956
+2024-04-06 22:30:48,863 [INFO]  Epoch[0] Train-NO2-accuracy=0.482234
+2024-04-06 22:30:48,863 [INFO]  Epoch[0] Time cost=0.677
+2024-04-06 22:30:48,869 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_NO2\model-0000.params"
+2024-04-06 22:30:48,907 [INFO]  Epoch[0] Validation-cross-entropy=4.098581
+2024-04-06 22:30:48,908 [INFO]  Epoch[0] Validation-NO2-accuracy=0.000000
+2024-04-06 22:30:49,244 [INFO]  Epoch[1] Batch [789]	Speed: 37556.14 samples/sec	cross-entropy=4.367792	NO2-accuracy=0.451899
+2024-04-06 22:30:49,577 [INFO]  Epoch[1] Train-cross-entropy=4.104351
+2024-04-06 22:30:49,578 [INFO]  Epoch[1] Train-NO2-accuracy=0.482234
+2024-04-06 22:30:49,578 [INFO]  Epoch[1] Time cost=0.669
+2024-04-06 22:30:49,583 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_NO2\model-0001.params"
+2024-04-06 22:30:49,621 [INFO]  Epoch[1] Validation-cross-entropy=3.916162
+2024-04-06 22:30:49,621 [INFO]  Epoch[1] Validation-NO2-accuracy=0.000000
+2024-04-06 22:30:49,957 [INFO]  Epoch[2] Batch [789]	Speed: 37715.22 samples/sec	cross-entropy=4.205496	NO2-accuracy=0.451899
+2024-04-06 22:30:50,300 [INFO]  Epoch[2] Train-cross-entropy=3.969663
+2024-04-06 22:30:50,300 [INFO]  Epoch[2] Train-NO2-accuracy=0.482234
+2024-04-06 22:30:50,300 [INFO]  Epoch[2] Time cost=0.679
+2024-04-06 22:30:50,307 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_NO2\model-0002.params"
+2024-04-06 22:30:50,341 [INFO]  Epoch[2] Validation-cross-entropy=3.750124
+2024-04-06 22:30:50,341 [INFO]  Epoch[2] Validation-NO2-accuracy=0.000000
+2024-04-06 22:30:50,673 [INFO]  Epoch[3] Batch [789]	Speed: 38219.21 samples/sec	cross-entropy=4.069249	NO2-accuracy=0.451899
+2024-04-06 22:30:51,014 [INFO]  Epoch[3] Train-cross-entropy=3.876614
+2024-04-06 22:30:51,015 [INFO]  Epoch[3] Train-NO2-accuracy=0.482234
+2024-04-06 22:30:51,015 [INFO]  Epoch[3] Time cost=0.673
+2024-04-06 22:30:51,021 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_NO2\model-0003.params"
+2024-04-06 22:30:51,063 [INFO]  Epoch[3] Validation-cross-entropy=3.663634
+2024-04-06 22:30:51,063 [INFO]  Epoch[3] Validation-NO2-accuracy=0.000000
+2024-04-06 22:30:51,487 [INFO]  Epoch[4] Batch [789]	Speed: 29767.99 samples/sec	cross-entropy=3.983610	NO2-accuracy=0.451899
+2024-04-06 22:30:51,853 [INFO]  Epoch[4] Train-cross-entropy=3.810555
+2024-04-06 22:30:51,854 [INFO]  Epoch[4] Train-NO2-accuracy=0.482234
+2024-04-06 22:30:51,854 [INFO]  Epoch[4] Time cost=0.791
+2024-04-06 22:30:51,860 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_NO2\model-0004.params"
+2024-04-06 22:30:51,901 [INFO]  Epoch[4] Validation-cross-entropy=3.688215
+2024-04-06 22:30:51,901 [INFO]  Epoch[4] Validation-NO2-accuracy=0.000000
+2024-04-06 22:30:52,264 [INFO]  Epoch[5] Batch [789]	Speed: 34913.56 samples/sec	cross-entropy=3.913530	NO2-accuracy=0.451899
+2024-04-06 22:30:52,649 [INFO]  Epoch[5] Train-cross-entropy=3.765846
+2024-04-06 22:30:52,649 [INFO]  Epoch[5] Train-NO2-accuracy=0.482234
+2024-04-06 22:30:52,650 [INFO]  Epoch[5] Time cost=0.749
+2024-04-06 22:30:52,657 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_NO2\model-0005.params"
+2024-04-06 22:30:52,698 [INFO]  Epoch[5] Validation-cross-entropy=3.765161
+2024-04-06 22:30:52,698 [INFO]  Epoch[5] Validation-NO2-accuracy=0.000000
+2024-04-06 22:30:53,045 [INFO]  Epoch[6] Batch [789]	Speed: 36492.04 samples/sec	cross-entropy=3.875303	NO2-accuracy=0.451899
+2024-04-06 22:30:53,378 [INFO]  Epoch[6] Train-cross-entropy=3.736342
+2024-04-06 22:30:53,378 [INFO]  Epoch[6] Train-NO2-accuracy=0.482234
+2024-04-06 22:30:53,378 [INFO]  Epoch[6] Time cost=0.680
+2024-04-06 22:30:53,385 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_NO2\model-0006.params"
+2024-04-06 22:30:53,422 [INFO]  Epoch[6] Validation-cross-entropy=3.876248
+2024-04-06 22:30:53,422 [INFO]  Epoch[6] Validation-NO2-accuracy=0.000000
+2024-04-06 22:30:53,761 [INFO]  Epoch[7] Batch [789]	Speed: 37339.12 samples/sec	cross-entropy=3.839567	NO2-accuracy=0.451899
+2024-04-06 22:30:54,104 [INFO]  Epoch[7] Train-cross-entropy=3.718832
+2024-04-06 22:30:54,104 [INFO]  Epoch[7] Train-NO2-accuracy=0.482234
+2024-04-06 22:30:54,104 [INFO]  Epoch[7] Time cost=0.682
+2024-04-06 22:30:54,112 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_NO2\model-0007.params"
+2024-04-06 22:30:54,150 [INFO]  Epoch[7] Validation-cross-entropy=3.935329
+2024-04-06 22:30:54,150 [INFO]  Epoch[7] Validation-NO2-accuracy=0.000000
+2024-04-06 22:30:54,488 [INFO]  Epoch[8] Batch [789]	Speed: 37379.61 samples/sec	cross-entropy=3.808852	NO2-accuracy=0.451899
+2024-04-06 22:30:54,822 [INFO]  Epoch[8] Train-cross-entropy=3.679510
+2024-04-06 22:30:54,822 [INFO]  Epoch[8] Train-NO2-accuracy=0.482234
+2024-04-06 22:30:54,822 [INFO]  Epoch[8] Time cost=0.672
+2024-04-06 22:30:54,828 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_NO2\model-0008.params"
+2024-04-06 22:30:54,865 [INFO]  No improvement detected for 5 epochs compared to 3.6636340246481054 last error obtained: 4.0812979926081265, stopping here
+2024-04-06 22:30:54,866 [INFO]  
+========== done (6.679971218109131 s) fit model
+2024-04-06 22:37:20,303 [INFO]  Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-04-06 22:37:20,306 [INFO]  Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-04-07 08:23:52,997 [INFO]  Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-04-07 08:23:53,055 [INFO]  Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.

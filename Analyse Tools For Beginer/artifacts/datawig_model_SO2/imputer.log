@@ -1,0 +1,176 @@
+2024-04-06 22:30:24,157 [INFO]  
+========== start: fit model
+2024-04-06 22:30:24,158 [WARNING]  Already bound, ignoring bind()
+2024-04-06 22:30:24,554 [INFO]  Epoch[0] Batch [789]	Speed: 31977.79 samples/sec	cross-entropy=6.784369	SO2-accuracy=0.432911
+2024-04-06 22:30:24,964 [INFO]  Epoch[0] Train-cross-entropy=5.517371
+2024-04-06 22:30:24,964 [INFO]  Epoch[0] Train-SO2-accuracy=0.428934
+2024-04-06 22:30:24,964 [INFO]  Epoch[0] Time cost=0.807
+2024-04-06 22:30:24,971 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_SO2\model-0000.params"
+2024-04-06 22:30:25,015 [INFO]  Epoch[0] Validation-cross-entropy=7.773263
+2024-04-06 22:30:25,015 [INFO]  Epoch[0] Validation-SO2-accuracy=0.000000
+2024-04-06 22:30:25,377 [INFO]  Epoch[1] Batch [789]	Speed: 35011.68 samples/sec	cross-entropy=5.464634	SO2-accuracy=0.432911
+2024-04-06 22:30:25,720 [INFO]  Epoch[1] Train-cross-entropy=5.002844
+2024-04-06 22:30:25,720 [INFO]  Epoch[1] Train-SO2-accuracy=0.428934
+2024-04-06 22:30:25,720 [INFO]  Epoch[1] Time cost=0.705
+2024-04-06 22:30:25,727 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_SO2\model-0001.params"
+2024-04-06 22:30:25,766 [INFO]  Epoch[1] Validation-cross-entropy=7.286692
+2024-04-06 22:30:25,767 [INFO]  Epoch[1] Validation-SO2-accuracy=0.000000
+2024-04-06 22:30:26,127 [INFO]  Epoch[2] Batch [789]	Speed: 35057.67 samples/sec	cross-entropy=5.166927	SO2-accuracy=0.432911
+2024-04-06 22:30:26,489 [INFO]  Epoch[2] Train-cross-entropy=4.825794
+2024-04-06 22:30:26,489 [INFO]  Epoch[2] Train-SO2-accuracy=0.428934
+2024-04-06 22:30:26,489 [INFO]  Epoch[2] Time cost=0.722
+2024-04-06 22:30:26,526 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_SO2\model-0002.params"
+2024-04-06 22:30:26,568 [INFO]  Epoch[2] Validation-cross-entropy=6.908422
+2024-04-06 22:30:26,568 [INFO]  Epoch[2] Validation-SO2-accuracy=0.000000
+2024-04-06 22:30:26,942 [INFO]  Epoch[3] Batch [789]	Speed: 33863.17 samples/sec	cross-entropy=5.022615	SO2-accuracy=0.432911
+2024-04-06 22:30:27,300 [INFO]  Epoch[3] Train-cross-entropy=4.722803
+2024-04-06 22:30:27,300 [INFO]  Epoch[3] Train-SO2-accuracy=0.428934
+2024-04-06 22:30:27,301 [INFO]  Epoch[3] Time cost=0.733
+2024-04-06 22:30:27,307 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_SO2\model-0003.params"
+2024-04-06 22:30:27,347 [INFO]  Epoch[3] Validation-cross-entropy=6.752656
+2024-04-06 22:30:27,347 [INFO]  Epoch[3] Validation-SO2-accuracy=0.000000
+2024-04-06 22:30:27,706 [INFO]  Epoch[4] Batch [789]	Speed: 35298.70 samples/sec	cross-entropy=4.932492	SO2-accuracy=0.432911
+2024-04-06 22:30:28,080 [INFO]  Epoch[4] Train-cross-entropy=4.662544
+2024-04-06 22:30:28,080 [INFO]  Epoch[4] Train-SO2-accuracy=0.428934
+2024-04-06 22:30:28,080 [INFO]  Epoch[4] Time cost=0.733
+2024-04-06 22:30:28,087 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_SO2\model-0004.params"
+2024-04-06 22:30:28,124 [INFO]  Epoch[4] Validation-cross-entropy=6.373431
+2024-04-06 22:30:28,124 [INFO]  Epoch[4] Validation-SO2-accuracy=0.000000
+2024-04-06 22:30:28,485 [INFO]  Epoch[5] Batch [789]	Speed: 35043.49 samples/sec	cross-entropy=4.876049	SO2-accuracy=0.432911
+2024-04-06 22:30:28,836 [INFO]  Epoch[5] Train-cross-entropy=4.607862
+2024-04-06 22:30:28,836 [INFO]  Epoch[5] Train-SO2-accuracy=0.428934
+2024-04-06 22:30:28,836 [INFO]  Epoch[5] Time cost=0.712
+2024-04-06 22:30:28,842 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_SO2\model-0005.params"
+2024-04-06 22:30:28,883 [INFO]  Epoch[5] Validation-cross-entropy=6.205217
+2024-04-06 22:30:28,883 [INFO]  Epoch[5] Validation-SO2-accuracy=0.000000
+2024-04-06 22:30:29,234 [INFO]  Epoch[6] Batch [789]	Speed: 35984.85 samples/sec	cross-entropy=4.802908	SO2-accuracy=0.432911
+2024-04-06 22:30:29,593 [INFO]  Epoch[6] Train-cross-entropy=4.550007
+2024-04-06 22:30:29,593 [INFO]  Epoch[6] Train-SO2-accuracy=0.428934
+2024-04-06 22:30:29,593 [INFO]  Epoch[6] Time cost=0.710
+2024-04-06 22:30:29,601 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_SO2\model-0006.params"
+2024-04-06 22:30:29,640 [INFO]  Epoch[6] Validation-cross-entropy=5.974946
+2024-04-06 22:30:29,640 [INFO]  Epoch[6] Validation-SO2-accuracy=0.000000
+2024-04-06 22:30:30,015 [INFO]  Epoch[7] Batch [789]	Speed: 33713.94 samples/sec	cross-entropy=4.755003	SO2-accuracy=0.432911
+2024-04-06 22:30:30,370 [INFO]  Epoch[7] Train-cross-entropy=4.527366
+2024-04-06 22:30:30,370 [INFO]  Epoch[7] Train-SO2-accuracy=0.428934
+2024-04-06 22:30:30,370 [INFO]  Epoch[7] Time cost=0.731
+2024-04-06 22:30:30,377 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_SO2\model-0007.params"
+2024-04-06 22:30:30,415 [INFO]  Epoch[7] Validation-cross-entropy=5.818246
+2024-04-06 22:30:30,415 [INFO]  Epoch[7] Validation-SO2-accuracy=0.000000
+2024-04-06 22:30:30,788 [INFO]  Epoch[8] Batch [789]	Speed: 33998.20 samples/sec	cross-entropy=4.719062	SO2-accuracy=0.432911
+2024-04-06 22:30:31,135 [INFO]  Epoch[8] Train-cross-entropy=4.497852
+2024-04-06 22:30:31,135 [INFO]  Epoch[8] Train-SO2-accuracy=0.428934
+2024-04-06 22:30:31,135 [INFO]  Epoch[8] Time cost=0.720
+2024-04-06 22:30:31,142 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_SO2\model-0008.params"
+2024-04-06 22:30:31,181 [INFO]  Epoch[8] Validation-cross-entropy=5.670913
+2024-04-06 22:30:31,181 [INFO]  Epoch[8] Validation-SO2-accuracy=0.000000
+2024-04-06 22:30:31,541 [INFO]  Epoch[9] Batch [789]	Speed: 35057.76 samples/sec	cross-entropy=4.684989	SO2-accuracy=0.432911
+2024-04-06 22:30:31,885 [INFO]  Epoch[9] Train-cross-entropy=4.469124
+2024-04-06 22:30:31,886 [INFO]  Epoch[9] Train-SO2-accuracy=0.428934
+2024-04-06 22:30:31,886 [INFO]  Epoch[9] Time cost=0.705
+2024-04-06 22:30:31,893 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_SO2\model-0009.params"
+2024-04-06 22:30:31,931 [INFO]  Epoch[9] Validation-cross-entropy=5.576595
+2024-04-06 22:30:31,931 [INFO]  Epoch[9] Validation-SO2-accuracy=0.000000
+2024-04-06 22:30:32,283 [INFO]  Epoch[10] Batch [789]	Speed: 36038.19 samples/sec	cross-entropy=4.653764	SO2-accuracy=0.432911
+2024-04-06 22:30:32,634 [INFO]  Epoch[10] Train-cross-entropy=4.438204
+2024-04-06 22:30:32,634 [INFO]  Epoch[10] Train-SO2-accuracy=0.428934
+2024-04-06 22:30:32,634 [INFO]  Epoch[10] Time cost=0.703
+2024-04-06 22:30:32,641 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_SO2\model-0010.params"
+2024-04-06 22:30:32,679 [INFO]  Epoch[10] Validation-cross-entropy=5.446211
+2024-04-06 22:30:32,680 [INFO]  Epoch[10] Validation-SO2-accuracy=0.000000
+2024-04-06 22:30:33,015 [INFO]  Epoch[11] Batch [789]	Speed: 37600.03 samples/sec	cross-entropy=4.620644	SO2-accuracy=0.432911
+2024-04-06 22:30:33,350 [INFO]  Epoch[11] Train-cross-entropy=4.426054
+2024-04-06 22:30:33,350 [INFO]  Epoch[11] Train-SO2-accuracy=0.428934
+2024-04-06 22:30:33,350 [INFO]  Epoch[11] Time cost=0.670
+2024-04-06 22:30:33,355 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_SO2\model-0011.params"
+2024-04-06 22:30:33,391 [INFO]  Epoch[11] Validation-cross-entropy=5.432831
+2024-04-06 22:30:33,391 [INFO]  Epoch[11] Validation-SO2-accuracy=0.000000
+2024-04-06 22:30:33,724 [INFO]  Epoch[12] Batch [789]	Speed: 37998.06 samples/sec	cross-entropy=4.600060	SO2-accuracy=0.432911
+2024-04-06 22:30:34,636 [INFO]  Epoch[12] Train-cross-entropy=4.403890
+2024-04-06 22:30:34,636 [INFO]  Epoch[12] Train-SO2-accuracy=0.428934
+2024-04-06 22:30:34,636 [INFO]  Epoch[12] Time cost=1.245
+2024-04-06 22:30:34,645 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_SO2\model-0012.params"
+2024-04-06 22:30:34,698 [INFO]  Epoch[12] Validation-cross-entropy=5.431828
+2024-04-06 22:30:34,699 [INFO]  Epoch[12] Validation-SO2-accuracy=0.000000
+2024-04-06 22:30:35,134 [INFO]  Epoch[13] Batch [789]	Speed: 29032.17 samples/sec	cross-entropy=4.578683	SO2-accuracy=0.432911
+2024-04-06 22:30:35,554 [INFO]  Epoch[13] Train-cross-entropy=4.393880
+2024-04-06 22:30:35,554 [INFO]  Epoch[13] Train-SO2-accuracy=0.428934
+2024-04-06 22:30:35,555 [INFO]  Epoch[13] Time cost=0.856
+2024-04-06 22:30:35,561 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_SO2\model-0013.params"
+2024-04-06 22:30:35,618 [INFO]  Epoch[13] Validation-cross-entropy=5.413265
+2024-04-06 22:30:35,618 [INFO]  Epoch[13] Validation-SO2-accuracy=0.000000
+2024-04-06 22:30:36,062 [INFO]  Epoch[14] Batch [789]	Speed: 28482.09 samples/sec	cross-entropy=4.565469	SO2-accuracy=0.432911
+2024-04-06 22:30:36,607 [INFO]  Epoch[14] Train-cross-entropy=4.389437
+2024-04-06 22:30:36,607 [INFO]  Epoch[14] Train-SO2-accuracy=0.428934
+2024-04-06 22:30:36,607 [INFO]  Epoch[14] Time cost=0.989
+2024-04-06 22:30:36,613 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_SO2\model-0014.params"
+2024-04-06 22:30:36,669 [INFO]  Epoch[14] Validation-cross-entropy=5.427013
+2024-04-06 22:30:36,669 [INFO]  Epoch[14] Validation-SO2-accuracy=0.000000
+2024-04-06 22:30:37,166 [INFO]  Epoch[15] Batch [789]	Speed: 25481.93 samples/sec	cross-entropy=4.552269	SO2-accuracy=0.432911
+2024-04-06 22:30:37,632 [INFO]  Epoch[15] Train-cross-entropy=4.369425
+2024-04-06 22:30:37,632 [INFO]  Epoch[15] Train-SO2-accuracy=0.428934
+2024-04-06 22:30:37,632 [INFO]  Epoch[15] Time cost=0.962
+2024-04-06 22:30:37,639 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_SO2\model-0015.params"
+2024-04-06 22:30:37,689 [INFO]  Epoch[15] Validation-cross-entropy=5.449887
+2024-04-06 22:30:37,689 [INFO]  Epoch[15] Validation-SO2-accuracy=0.000000
+2024-04-06 22:30:38,129 [INFO]  Epoch[16] Batch [789]	Speed: 28818.83 samples/sec	cross-entropy=4.531480	SO2-accuracy=0.432911
+2024-04-06 22:30:38,589 [INFO]  Epoch[16] Train-cross-entropy=4.364848
+2024-04-06 22:30:38,590 [INFO]  Epoch[16] Train-SO2-accuracy=0.428934
+2024-04-06 22:30:38,590 [INFO]  Epoch[16] Time cost=0.900
+2024-04-06 22:30:38,596 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_SO2\model-0016.params"
+2024-04-06 22:30:38,649 [INFO]  Epoch[16] Validation-cross-entropy=5.570092
+2024-04-06 22:30:38,649 [INFO]  Epoch[16] Validation-SO2-accuracy=0.000000
+2024-04-06 22:30:39,111 [INFO]  Epoch[17] Batch [789]	Speed: 27421.79 samples/sec	cross-entropy=4.520941	SO2-accuracy=0.432911
+2024-04-06 22:30:39,563 [INFO]  Epoch[17] Train-cross-entropy=4.345181
+2024-04-06 22:30:39,563 [INFO]  Epoch[17] Train-SO2-accuracy=0.428934
+2024-04-06 22:30:39,563 [INFO]  Epoch[17] Time cost=0.913
+2024-04-06 22:30:39,570 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_SO2\model-0017.params"
+2024-04-06 22:30:39,627 [INFO]  Epoch[17] Validation-cross-entropy=5.539796
+2024-04-06 22:30:39,627 [INFO]  Epoch[17] Validation-SO2-accuracy=0.000000
+2024-04-06 22:30:40,101 [INFO]  Epoch[18] Batch [789]	Speed: 26664.83 samples/sec	cross-entropy=4.507208	SO2-accuracy=0.432911
+2024-04-06 22:30:40,482 [INFO]  Epoch[18] Train-cross-entropy=4.341945
+2024-04-06 22:30:40,482 [INFO]  Epoch[18] Train-SO2-accuracy=0.428934
+2024-04-06 22:30:40,482 [INFO]  Epoch[18] Time cost=0.855
+2024-04-06 22:30:40,488 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_SO2\model-0018.params"
+2024-04-06 22:30:40,529 [INFO]  Epoch[18] Validation-cross-entropy=5.399809
+2024-04-06 22:30:40,530 [INFO]  Epoch[18] Validation-SO2-accuracy=0.000000
+2024-04-06 22:30:40,880 [INFO]  Epoch[19] Batch [789]	Speed: 36136.35 samples/sec	cross-entropy=4.489058	SO2-accuracy=0.432911
+2024-04-06 22:30:41,254 [INFO]  Epoch[19] Train-cross-entropy=4.316787
+2024-04-06 22:30:41,254 [INFO]  Epoch[19] Train-SO2-accuracy=0.428934
+2024-04-06 22:30:41,254 [INFO]  Epoch[19] Time cost=0.724
+2024-04-06 22:30:41,261 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_SO2\model-0019.params"
+2024-04-06 22:30:41,302 [INFO]  Epoch[19] Validation-cross-entropy=5.580863
+2024-04-06 22:30:41,302 [INFO]  Epoch[19] Validation-SO2-accuracy=0.000000
+2024-04-06 22:30:41,657 [INFO]  Epoch[20] Batch [789]	Speed: 35733.40 samples/sec	cross-entropy=4.481740	SO2-accuracy=0.432911
+2024-04-06 22:30:42,047 [INFO]  Epoch[20] Train-cross-entropy=4.322723
+2024-04-06 22:30:42,047 [INFO]  Epoch[20] Train-SO2-accuracy=0.428934
+2024-04-06 22:30:42,047 [INFO]  Epoch[20] Time cost=0.745
+2024-04-06 22:30:42,080 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_SO2\model-0020.params"
+2024-04-06 22:30:42,120 [INFO]  Epoch[20] Validation-cross-entropy=5.535813
+2024-04-06 22:30:42,120 [INFO]  Epoch[20] Validation-SO2-accuracy=0.000000
+2024-04-06 22:30:42,494 [INFO]  Epoch[21] Batch [789]	Speed: 33731.86 samples/sec	cross-entropy=4.465085	SO2-accuracy=0.432911
+2024-04-06 22:30:42,855 [INFO]  Epoch[21] Train-cross-entropy=4.319196
+2024-04-06 22:30:42,855 [INFO]  Epoch[21] Train-SO2-accuracy=0.428934
+2024-04-06 22:30:42,855 [INFO]  Epoch[21] Time cost=0.735
+2024-04-06 22:30:42,862 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_SO2\model-0021.params"
+2024-04-06 22:30:42,904 [INFO]  Epoch[21] Validation-cross-entropy=5.445561
+2024-04-06 22:30:42,904 [INFO]  Epoch[21] Validation-SO2-accuracy=0.000000
+2024-04-06 22:30:43,275 [INFO]  Epoch[22] Batch [789]	Speed: 34131.40 samples/sec	cross-entropy=4.462816	SO2-accuracy=0.432911
+2024-04-06 22:30:43,670 [INFO]  Epoch[22] Train-cross-entropy=4.305271
+2024-04-06 22:30:43,670 [INFO]  Epoch[22] Train-SO2-accuracy=0.428934
+2024-04-06 22:30:43,670 [INFO]  Epoch[22] Time cost=0.766
+2024-04-06 22:30:43,676 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_SO2\model-0022.params"
+2024-04-06 22:30:43,717 [INFO]  Epoch[22] Validation-cross-entropy=5.417795
+2024-04-06 22:30:43,717 [INFO]  Epoch[22] Validation-SO2-accuracy=0.000000
+2024-04-06 22:30:44,087 [INFO]  Epoch[23] Batch [789]	Speed: 34178.08 samples/sec	cross-entropy=4.451014	SO2-accuracy=0.432911
+2024-04-06 22:30:44,437 [INFO]  Epoch[23] Train-cross-entropy=4.305269
+2024-04-06 22:30:44,437 [INFO]  Epoch[23] Train-SO2-accuracy=0.428934
+2024-04-06 22:30:44,437 [INFO]  Epoch[23] Time cost=0.719
+2024-04-06 22:30:44,442 [INFO]  Saved checkpoint to "./Analyse Tools For Beginer/artifacts/datawig_model_SO2\model-0023.params"
+2024-04-06 22:30:44,485 [INFO]  No improvement detected for 5 epochs compared to 5.3998090707203925 last error obtained: 5.453480139199425, stopping here
+2024-04-06 22:30:44,485 [INFO]  
+========== done (20.328695058822632 s) fit model
+2024-04-06 22:37:20,303 [INFO]  Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-04-06 22:37:20,306 [INFO]  Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-04-07 08:23:52,997 [INFO]  Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-04-07 08:23:53,055 [INFO]  Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
