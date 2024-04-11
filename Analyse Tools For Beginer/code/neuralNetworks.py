@@ -12,7 +12,7 @@ def neuralNetworks(data_path, target_column):
     # Load the data
     data = pd.read_csv(data_path)
 
-    # Replace '?' with NaN (missing value marker)
+    # Replace '?','Na' with NaN (missing value marker)
     data = data.replace(['?', 'NA'], np.nan)
     
     # One-hot encode categorical columns
@@ -35,12 +35,9 @@ def neuralNetworks_number(data_path, target_column, data_type):
     data = pd.read_csv(data_path)
     original_data = data.copy()
 
-    # Replace '?' with NaN (missing value marker)
+    # Replace '?', 'NA' with NaN (missing value marker)
     data = data.replace(['?', 'NA'], np.nan)
-    
-    # # Perform train-test split (Default is 80/20 split)
-    # train_data, test_data = train_test_split(data, test_size=0.2, random_state=42)
-    
+
     # One-hot encode categorical columns
     cat_cols = data.select_dtypes(include=['object']).columns.tolist()
     data_encoded = pd.get_dummies(data, columns=cat_cols, dummy_na=True)
@@ -116,7 +113,6 @@ def neuralNetworks_categorical(data_path, target_column):
     
     data_encoded = pd.get_dummies(data, columns=cat_cols, dummy_na=True)
     encoded_target_cols = [col for col in data_encoded.columns if col.startswith(target_column)]
-    # encoded_target_cols = [col for col in data_encoded.columns if col.startswith(target_column) and '_nan' not in col]
     encoded_target_cols_nan = [col for col in data_encoded.columns if col.startswith(target_column) and '_nan' in col]
     target_nan_column = encoded_target_cols_nan[0]
     
@@ -151,26 +147,24 @@ def neuralNetworks_categorical(data_path, target_column):
     model.add(Dense(len(encoded_target_cols)))
 
     # Compile the model
-    # model.compile(optimizer='adam', loss='mean_squared_error')
     model.compile(optimizer='RMSprop', loss='categorical_crossentropy')
     
 
     # Train the model
     model.fit(X_train, y_train, epochs=100, verbose=0)
 
-    # Now you can use the trained model to predict the missing values
     missing_values_input = missing.drop(encoded_target_cols, axis=1)
-    missing_values_input = scaler.transform(missing_values_input)  # Use the same scaler
+    missing_values_input = scaler.transform(missing_values_input)
     predicted_values = model.predict(missing_values_input)
     
-    # Since model.predict() returns a 2D numpy array, we need to flatten it to 1D if target is not one-hot encoded
+    # Since model.predict() returns a 2D numpy array, need to flatten it to 1D if target is not one-hot encoded
     if len(encoded_target_cols) == 1:
         predicted_values = predicted_values.flatten()
 
     # Fill the missing values with the predicted ones
     for i, col in enumerate(encoded_target_cols):
         missing.loc[:, col] = predicted_values[:, i]
-    # print("missing:", missing)
+    
     # Combine the datasets
     data_filled = pd.concat([not_missing, missing], ignore_index=True)
 
@@ -240,88 +234,11 @@ def infer_data_type(csv_file_path, target_column):
     # Get the target column data
     column_data = data[target_column]
     
-    # Check for the number of unique values relative to the sample size
-    unique_values = column_data.nunique()
-    total_values = len(column_data)
-    unique_ratio = unique_values / total_values
-
-    # Set a threshold to decide whether the data is categorical
-    # This threshold can be adjusted based on domain knowledge and the specific dataset
-    categorical_threshold = 0.05  # for example, if unique values represent less than 5% of total, consider it categorical
-
-    # Determine the type based on the unique ratio and the data type
     if pd.api.types.is_numeric_dtype(column_data):
         data_type = 'Continuous'
     elif pd.api.types.is_string_dtype(column_data) or pd.api.types.is_categorical_dtype(column_data):
-        # For string or categorical data, consider it categorical by default
         data_type = 'Categorical'
     else:
         data_type = 'Unknown Data Type'
 
     return data_type
-
-# Example usage:
-
-# target = 'age'
-# csv_file_path = './Analyse Tools For Beginer/data/adult.csv'
-# # target = 'Final'
-# # csv_file_path = './Analyse Tools For Beginer/data/class-grades.csv'
-
-# filled_data, accuracy = sequential(csv_file_path, target)
-# print(filled_data)
-# print(accuracy)
-# # if target[] is more than one save the csv file as temp
-# new_csv_file_path = f'./Analyse Tools For Beginer/data/temp_sequential.csv'
-# filled_data.to_csv(new_csv_file_path, index=False)
-
-# target_columns = ['workclass', 'occupation', 'native_country']
-# csv_file_path = './Analyse Tools For Beginer/data/adult.csv'
-# intermediate_csv_path = './Analyse Tools For Beginer/data/temp_neuralNetworks.csv'
-# final_csv_path = f'./Analyse Tools For Beginer/data/neuralNetworks_model.csv'
-
-# # Loop through the target columns
-# for i, target in enumerate(target_columns):
-#     print(target)
-#     # Apply the sequential function to the current target column
-#     filled_data, accuracy = neuralNetworks(csv_file_path, target)
-#     print("i: ",i)
-#     # If this is not the last target column, save to the intermediate CSV file
-#     if i < len(target_columns) - 1:
-#         print("temp: ",i)
-#         filled_data.to_csv(intermediate_csv_path, index=False)
-#         # Update the csv_file_path to use the intermediate file for the next iteration
-#         csv_file_path = intermediate_csv_path
-#     if i is len(target_columns) - 1:
-#         print("Fin: ",i)
-#         # This is the last target column, save to the final CSV file
-#         filled_data.to_csv(final_csv_path, index=False)
-#         os.remove(intermediate_csv_path)
-#     print("accuracy: ",accuracy)
-# # Print the final filled data
-# print(filled_data)
-
-# target_columns = ['PM10', 'SO2', 'NO2', 'CO', 'PM2.5']
-# csv_file_path = './Analyse Tools For Beginer/data/PRSA_Data_Aotizhongxin_20130301-20170228.csv'
-# intermediate_csv_path = './Analyse Tools For Beginer/data/temp_neuralNetworks.csv'
-# final_csv_path = f'./Analyse Tools For Beginer/data/neuralNetworks_model.csv'
-
-# # Loop through the target columns
-# for i, target in enumerate(target_columns):
-#     print(target)
-#     # Apply the sequential function to the current target column
-#     filled_data, accuracy = neuralNetworks(csv_file_path, target)
-#     print("i: ",i)
-#     # If this is not the last target column, save to the intermediate CSV file
-#     if i < len(target_columns) - 1:
-#         print("temp: ",i)
-#         filled_data.to_csv(intermediate_csv_path, index=False)
-#         # Update the csv_file_path to use the intermediate file for the next iteration
-#         csv_file_path = intermediate_csv_path
-#     if i is len(target_columns) - 1:
-#         print("Fin: ",i)
-#         # This is the last target column, save to the final CSV file
-#         filled_data.to_csv(final_csv_path, index=False)
-#         os.remove(intermediate_csv_path)
-#     print("accuracy: ",accuracy)
-# # Print the final filled data
-# print(filled_data)

@@ -18,7 +18,6 @@ from PyQt5.QtCore import QObject, pyqtSignal
 class HandlerWorker(QObject):
     finished = pyqtSignal()
     data_ready = pyqtSignal(object)
-    # data_ready = pyqtSignal(object, object, object, float)
     
     def setup_data(self, csv_file_path, selected_target, selected_data_columns, selected_model):
         self.csv_file_path = csv_file_path
@@ -142,7 +141,6 @@ class HandlerWorker(QObject):
                     if f"{column_name}_dataWig" not in accuracy:
                         accuracy_for_datawig = get_accuracy_from_log(model_path)
                         accuracy.update(accuracy_for_datawig)
-                    # print('accuracy_datawig_updata: ', accuracy)
 
             # Check if there are any NaN values in the specified columns of the dataframe
             if df[check_columns_nan].isnull().any().any():
@@ -169,8 +167,9 @@ class HandlerWorker(QObject):
             else:
                 accuracy, fig = randomForestClassifier(csv_file_path, selected_data_columns, selected_target)   
 
+        # Emit the data_ready signal with the fig object
+        self.data_ready.emit(fig)
         # Emit finished signal when done
-        self.data_ready.emit(fig)  # Emit the data_ready signal with the fig object
         self.finished.emit()
 
 def check_missing_data(data_path):
@@ -251,11 +250,9 @@ def infer_data_type(csv_file_path, target_column):
     # Get the target column data
     column_data = data[target_column]
 
-    # Determine the type based on the unique ratio and the data type
     if pd.api.types.is_numeric_dtype(column_data):
         data_type = 'Continuous'
     elif pd.api.types.is_string_dtype(column_data) or pd.api.types.is_categorical_dtype(column_data):
-        # For string or categorical data, consider it categorical by default
         data_type = 'Categorical'
     else:
         data_type = 'Unknown Data Type'
@@ -375,7 +372,7 @@ def logisticRegression(csv_file_path, selected_data_columns, selected_target):
     else:  # Otherwise, use a pie chart
         ax.pie(pd.Series(y_pred_labels).value_counts(), labels=pd.Series(y_pred_labels).value_counts().index.map(str), autopct='%1.1f%%')
     
-    # Remove the title
+    # set the title
     ax.set_title("Logistic Regression Model")
 
     # Return the accuracy and the figure object
@@ -423,7 +420,7 @@ def randomForestClassifier(csv_file_path, selected_data_columns, selected_target
     else:  # Otherwise, use a pie chart
         ax.pie(pd.Series(y_pred_labels).value_counts(), labels=pd.Series(y_pred_labels).value_counts().index.map(str), autopct='%1.1f%%')
     
-    # Remove the title
+    # set the title
     ax.set_title("Random Forest Model")
 
     # Return the accuracy and the figure object

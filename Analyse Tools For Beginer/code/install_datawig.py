@@ -16,11 +16,11 @@ def install_datawig():
     # Change directory
     os.chdir('requirements')
     
-    # Modify requirements.txt
+    # Modify requirements.readthedocs.txt
     with open('requirements.readthedocs.txt', 'r') as file:
         lines = file.readlines()
 
-    # Assuming the change needed is to update the version of mxnet
+    # Update the version of mxnet
     # Replace the old version with the new one
     for i, line in enumerate(lines):
         if 'mxnet' in line:

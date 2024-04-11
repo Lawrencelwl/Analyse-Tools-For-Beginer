@@ -13,16 +13,13 @@ from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 class Ui_Form(object):
     def __init__(self):
         super().__init__()
-        # Initialize the selected_file_path attribute
         self.selected_file_path = None
         self.selected_model = None
         self.handler_worker = HandlerWorker()
         self.handler_worker_thread = QThread()
         self.handler_worker.moveToThread(self.handler_worker_thread)
         self.handler_worker.finished.connect(self.on_handling_finished)
-        # Connect the thread's started signal to the worker's handle_data method
         self.handler_worker_thread.started.connect(self.handler_worker.handle_data)
-        # Connect data_ready signal to a new slot method
         self.handler_worker.data_ready.connect(self.on_data_ready)
 
     def setupUi(self, Form):
@@ -219,7 +216,6 @@ class Ui_Form(object):
                 
     def handle_selected_data(self):
         if hasattr(self, 'selected_file_path') and hasattr(self, 'selected_target'):
-            # Here you can load the data from the CSV and process it using the selected target
             try:
                 df = pd.read_csv(self.selected_file_path)
             except Exception as e:
@@ -242,7 +238,6 @@ class Ui_Form(object):
         msg.setWindowTitle("Warning")
         msg.setText(message)
         msg.setIcon(QMessageBox.Warning)
-        # Assuming `icon_path` is defined somewhere in your class
         msg.setStyleSheet("background-color: #301860; color: #ffffff;")
         msg.setWindowIcon(QtGui.QIcon(icon_path))
         msg.exec_()  # Display the message box
@@ -318,7 +313,7 @@ class Ui_Form(object):
         self.figure_dialog.setWindowTitle("Figure")  # Give it a title
         
         # Set the window icon
-        self.figure_dialog.setWindowIcon(QtGui.QIcon(icon_path))  # Assuming icon_path is defined
+        self.figure_dialog.setWindowIcon(QtGui.QIcon(icon_path))
         
         # Set up the layout and add the canvas
         layout = QtWidgets.QVBoxLayout()

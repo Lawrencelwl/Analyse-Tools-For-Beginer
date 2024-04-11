@@ -82,9 +82,8 @@ class SelectAnalyseTargetDialog(QtWidgets.QDialog):
             checkbox.setStyleSheet("color: #ffffff;")
             checkbox.stateChanged.connect(self.checkbox_state_changed)
             self.checkboxes.append(checkbox)
-            self.grid_layout.addWidget(checkbox, i // 3, i % 3)  # Adjust the numbers for your grid layout
+            self.grid_layout.addWidget(checkbox, i // 3, i % 3)  # Adjust the numbers for grid layout
             
-        # Label for 
         self.info_label = QtWidgets.QLabel(" Auto select of target Data:")
         self.info_label.setFixedHeight(20)
         self.info_label.setStyleSheet("background-color: #d9abff;")
@@ -113,8 +112,6 @@ class SelectAnalyseTargetDialog(QtWidgets.QDialog):
         # OK button
         buttons_layout = QtWidgets.QHBoxLayout()
         ok_button = QtWidgets.QPushButton('OK')
-        # ok_button.clicked.connect(self.accept)
-        # Connect the OK button click to the new method
         ok_button.clicked.connect(self.on_ok_button_clicked)
         ok_button.setFixedSize(200, 30)  # Set fixed size: width from button_size, height to 30
         ok_button.setStyleSheet("background-color: #cd67cd;\n"
@@ -170,7 +167,6 @@ class SelectAnalyseTargetDialog(QtWidgets.QDialog):
         self.selected_data_columns.clear()
         
     def on_ok_button_clicked(self):
-        # This is the new method which will be called when the OK button is clicked
         if self.toggle_button.isChecked():
             # If toggle is ON, run the feature extraction
             try:
@@ -181,18 +177,14 @@ class SelectAnalyseTargetDialog(QtWidgets.QDialog):
                         checkbox.setChecked(True)
             except ValueError as e:
                 # Handle the error if the target column was not found
-                # You can use a QMessageBox to alert the user
                 error_dialog = QtWidgets.QMessageBox(self)
                 error_dialog.setWindowTitle('Error')
                 error_dialog.setIcon(QtWidgets.QMessageBox.Critical)
                 error_dialog.setText(str(e))
                 error_dialog.exec_()
         else:
-            # If toggle is OFF, or for other actions you'd like to take when the OK button is clicked
             selected_data, selected_target = self.get_selected_columns()
             if selected_data is not None and selected_target is not None:
-                # Proceed with your logic when the selection is valid
                 pass
 
-        # Close the dialog or keep it open based on your use case
-        self.accept()  # Or self.reject() if you need to cancel the action
+        self.accept()

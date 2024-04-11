@@ -64,14 +64,11 @@ def infer_data_type(csv_file_path, target_column):
     # Get the target column data
     column_data = data[target_column]
 
-    # Determine the type based on the unique ratio and the data type
     if pd.api.types.is_numeric_dtype(column_data):
         data_type = 'Continuous'
     elif pd.api.types.is_string_dtype(column_data) or pd.api.types.is_categorical_dtype(column_data):
-        # For string or categorical data, consider it categorical by default
         data_type = 'Categorical'
     else:
         data_type = 'Unknown Data Type'
 
     return data_type
-

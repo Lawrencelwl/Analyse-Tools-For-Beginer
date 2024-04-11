@@ -32,23 +32,6 @@ def dataWig(data_path, output_col_data):
     # Impute missing values and return original dataframe with predictions
     predictions_cat = imputer_cat.predict(df_test)
     
-    # # Evaluation of categorical imputation
-    # from sklearn.metrics import matthews_corrcoef
-    # df_test[output_col] = df_test[output_col].astype(str)
-    # mcc_datawig = matthews_corrcoef(
-    #     df_test[output_col],
-    #     predictions_cat[f'{output_col}_imputed']
-    # )
-    
-    # df_test[output_col] = df_test[output_col].astype(str)
-    # # mse_datawig = (mse(predictions_cat[output_col], predictions_cat[f'{output_col}_imputed']))**0.5  
-    # if pd.api.types.is_string_dtype(df_test[output_col]):
-    #     mse_datawig = accuracy_score(df_test[output_col], predictions_cat[f'{output_col}_imputed'])
-    #     print(f"The data in '{output_col}' is of string type.")
-    # else:
-    #     mse_datawig = (mse(predictions_cat[output_col], predictions_cat[f'{output_col}_imputed']))**0.5    
-    #     print(f"The data in '{output_col}' is float.")
-    
     # Convert both the true and imputed data to string if they are categorical
     df_test[output_col] = df_test[output_col].astype(str)
     predictions_cat[f'{output_col}_imputed'] = predictions_cat[f'{output_col}_imputed'].astype(str)
@@ -61,27 +44,3 @@ def dataWig(data_path, output_col_data):
 
     # Return the model path and the MCC score
     return model_path, datawig_accuracy
-
-# # Example usage:
-
-# # Read the CSV file into a DataFrame
-# data_path = pd.read_csv('./Analyse Tools For Beginer/data/csv_result-dataset_183_adult.csv', na_values='?')
-
-# # Define a mapping for class labels to binary values, adjust if needed
-# class_mapping = {'<=50K': 0, '>50K': 1}
-# data_path['class'] = data_path['class'].map(class_mapping)
-
-# # Check for NaN values in each column
-# columns_with_nan = data_path.columns[data_path.isna().any()].tolist()
-# print(columns_with_nan)
-
-# # Loop over each column with NaN values and perform imputation and evaluation
-# for output_col_cat in columns_with_nan:
-#     model_path, mcc_score = dataWig(data_path, output_col_cat)
-#     print(f"Model Path: {model_path}")
-#     print(f"MCC Score: {mcc_score}")
-
-# output_col_cat = 'workclass'
-# model_path, mcc_score = dataWig(data_path, output_col_cat)
-# print(f"Model Path: {model_path}")
-# print(f"MCC Score: {mcc_score}")
