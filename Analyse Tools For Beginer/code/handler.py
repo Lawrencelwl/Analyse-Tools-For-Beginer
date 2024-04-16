@@ -303,8 +303,9 @@ def compare_accuracy(accuracy_scores, csv_file_path):
     return comparison_results
 
 def create_combined_csv(comparison_results, analyze_csv_path, output_csv_path, file_name):
-    # Load the original data (assuming the original data is in one of the CSVs listed in analyze_csv_path)
-    original_data_path = next(iter(analyze_csv_path.values()))  # Getting one CSV path to load original data
+    # Load the original data 
+    # Getting one CSV path to load original data
+    original_data_path = next(iter(analyze_csv_path.values()))  
     original_data = pd.read_csv(original_data_path)
 
     # Create a new DataFrame to store the best columns

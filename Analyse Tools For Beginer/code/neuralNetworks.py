@@ -79,7 +79,6 @@ def neuralNetworks_number(data_path, target_column, data_type):
     
     # Use the trained model to predict the missing values
     missing_values_input = missing.drop(target_column, axis=1)
-    print(missing_values_input)
     missing_values_input = scaler.transform(missing_values_input)  # Use the same scaler
     predicted_values = model.predict(missing_values_input)
     
