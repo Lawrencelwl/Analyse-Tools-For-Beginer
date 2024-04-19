@@ -89,8 +89,8 @@ class Ui_Form(object):
 
     def retranslateUi(self, Form):
         _translate = QtCore.QCoreApplication.translate
-        Form.setWindowTitle(_translate("Form", "Analyse Tools For Beginer"))
-        self.label.setText(_translate("Form", "Analyse Tools For Beginer"))
+        Form.setWindowTitle(_translate("Form", "Analyse Tools For Beginner"))
+        self.label.setText(_translate("Form", "Analyse Tools For Beginner"))
         self.Confirm.setText(_translate("Form", "Confirm"))
         self.SelectModel.setText(_translate("Form", "Select Model"))
         self.SelectAnalyseTarget.setText(_translate("Form", "Select Analyse Target"))
