@@ -4,12 +4,12 @@ The "Incomplete Data Analysis Using Machine Learning" project explored the tradi
 
 Environment :
 
-Python - 3.7.16
-datawig
-PyQt5
-matplotlib 
-keras 
-tensorflow 
+1. Python - 3.7.16
+2. datawig
+3. PyQt5
+4. matplotlib
+5. keras
+6. tensorflow 
 
 Install Guide : 
 
